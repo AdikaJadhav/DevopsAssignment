@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "My Suite">
+	<test name = "HomePageTest">
+		<classes>
+			<class name = "com.CRM.TestCase.HomePageTestCase">
+			</class>
+			</classes>
+	</test>
+	<test name = "LoginPageTest">
+		<classes>
+			<class name = "com.CRM.TestCase.LoginPageTestCase">
+			</class>
+		</classes>
+	</test>
+</suite>

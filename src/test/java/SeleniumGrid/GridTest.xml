@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Suite" parallel = "tests">
+
+	<test name = "Chrome Test">
+	<parameter name = "bname" value = "Chrome"></parameter>
+		<classes>
+			<class name = "SeleniumGrid.AmazonParallelTest">
+			</class>
+			</classes>
+	</test>
+	
+	<test name = "Firefox Test">
+	<parameter name = "bname" value = "Firefox"></parameter>
+		<classes>
+			<class name = "SeleniumGrid.AmazonParallelTest">
+			</class>
+			</classes>
+	</test>
+	
+	<test name = "Edge Test">
+	<parameter name = "bname" value = "Edge"></parameter>
+		<classes>
+			<class name = "SeleniumGrid.AmazonParallelTest">
+			</class>
+			</classes>
+	</test>
+	
+</suite>
