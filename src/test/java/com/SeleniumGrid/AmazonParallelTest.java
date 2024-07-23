@@ -1,4 +1,4 @@
-package SeleniumGrid;
+package com.SeleniumGrid;
 
 import org.testng.annotations.Parameters;
 
