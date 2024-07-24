@@ -26,19 +26,19 @@ public class AmazonParallelTest
 	  if(bname.equals("Chrome"))
 	  {
 		  ChromeOptions options = new ChromeOptions();
-		  driver = new RemoteWebDriver(new URL("http://localhost:4444"),options);
+		  driver = new RemoteWebDriver(new URL("http://localhost:8080"),options);
 		  System.out.println("Session created on chrome!");
 	  }
 	  else if(bname.equals("Firefox"))
 	  {
 		  FirefoxOptions options = new FirefoxOptions();
-		  driver = new RemoteWebDriver(new URL("http://localhost:4444"),options);
+		  driver = new RemoteWebDriver(new URL("http://localhost:8080"),options);
 		  System.out.println("Session created on firefox!");
 	  }
 	  else if(bname.equals("Edge"))
 	  {
 		  EdgeOptions options = new EdgeOptions();
-		  driver = new RemoteWebDriver(new URL("http://localhost:4444"),options);
+		  driver = new RemoteWebDriver(new URL("http://localhost:8080"),options);
 		  System.out.println("Session created on edge!");
 	  }
 	  
